@@ -12,7 +12,7 @@ class Home extends StatelessWidget {
             padding: EdgeInsets.only(left: 24, right: 24, top: 60),
             child: Column(children: <Widget>[
               Header(),
-              Expanded(flex: 1, child: List())
+              Expanded(flex: 1, child: IncidentsList())
             ])));
   }
 }

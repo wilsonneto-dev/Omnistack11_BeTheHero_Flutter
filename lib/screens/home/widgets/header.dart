@@ -1,4 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:omni_flutter/screens/home/home_bloc.dart';
+
+import '../home_bloc.dart';
+
+import '../../../models/Incident.dart';
 
 class Header extends StatelessWidget {
   @override
@@ -24,7 +29,7 @@ class Header extends StatelessWidget {
                           children: <TextSpan>[
                         TextSpan(text: 'Total de '),
                         TextSpan(
-                            text: '8 casos',
+                            text: '0 casos',
                             style: TextStyle(fontWeight: FontWeight.bold))
                       ]))))
         ],

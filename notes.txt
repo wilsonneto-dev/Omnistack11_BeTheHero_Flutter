@@ -1,0 +1,2 @@
+To run the mock rest api:
+json-server --watch db.json
